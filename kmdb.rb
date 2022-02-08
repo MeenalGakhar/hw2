@@ -267,3 +267,66 @@ role15.character_name = "Selina Kyle"
 role15.save
 
 puts "There are #{Role.all.count} roles"
+
+
+puts "Movies"
+puts "======"
+puts ""
+
+movie = Movie.where({ title: "Batman Begins" })[0]
+puts "#{movie.title} #{movie.year_released} #{movie.rated} #{person1.name}"
+movie = Movie.where({ title: "The Dark Knight" })[0]
+puts "#{movie.title} #{movie.year_released} #{movie.rated} #{person1.name}"
+movie = Movie.where({ title: "The Dark Knight Rises" })[0]
+puts "#{movie.title} #{movie.year_released} #{movie.rated} #{person1.name}"
+
+
+puts ""
+puts "Top Cast"
+puts "========"
+puts ""
+
+movie = Movie.where({ title: "Batman Begins" })[0]
+puts "#{movie.title} #{person2.name} #{role1.character_name}"
+
+movie = Movie.where({ title: "Batman Begins" })[0]
+puts "#{movie.title} #{person3.name} #{role2.character_name}"
+
+movie = Movie.where({ title: "Batman Begins" })[0]
+puts "#{movie.title} #{person4.name} #{role3.character_name}"
+
+movie = Movie.where({ title: "Batman Begins" })[0]
+puts "#{movie.title} #{person5.name} #{role4.character_name}"
+
+movie = Movie.where({ title: "Batman Begins" })[0]
+puts "#{movie.title} #{person6.name} #{role5.character_name}"
+
+movie = Movie.where({ title: "The Dark Knight" })[0]
+puts "#{movie.title} #{person2.name} #{role6.character_name}"
+
+movie = Movie.where({ title: "The Dark Knight" })[0]
+puts "#{movie.title} #{person7.name} #{role7.character_name}"
+
+movie = Movie.where({ title: "The Dark Knight" })[0]
+puts "#{movie.title} #{person8.name} #{role8.character_name}"
+
+movie = Movie.where({ title: "The Dark Knight" })[0]
+puts "#{movie.title} #{person3.name} #{role9.character_name}"
+
+movie = Movie.where({ title: "The Dark Knight" })[0]
+puts "#{movie.title} #{person9.name} #{role10.character_name}"
+
+movie = Movie.where({ title: "The Dark Knight" })[0]
+puts "#{movie.title} #{person2.name} #{role11.character_name}"
+
+movie = Movie.where({ title: "The Dark Knight" })[0]
+puts "#{movie.title} #{person6.name} #{role12.character_name}"
+
+movie = Movie.where({ title: "The Dark Knight" })[0]
+puts "#{movie.title} #{person10.name} #{role13.character_name}"
+
+movie = Movie.where({ title: "The Dark Knight" })[0]
+puts "#{movie.title} #{person11.name} #{role14.character_name}"
+
+movie = Movie.where({ title: "The Dark Knight" })[0]
+puts "#{movie.title} #{person12.name} #{role15.character_name}"
